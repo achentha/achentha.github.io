@@ -1,1 +1,69 @@
 /* custom styles */
+
+header {
+  padding: 2%;
+}
+
+header div p {
+  text-align: right;
+  padding-right: 1%;
+}
+h1 {
+  border: 2px solid grey;
+  width: 40%;
+  padding: 2%;
+  margin: 0% auto;
+  text-align: center;
+  font-family: serif;
+  font-size: 40px;
+  background-color: #CCF;
+}
+
+.div-img {
+  border: 2px solid grey;
+  background-color: #D0ECD7;
+  width: 95%;
+  margin: 2% auto;
+
+}
+.myPhoto{
+  border: 1px solid black;
+  display: block;
+  width: 95%;
+  margin: 2% auto;
+}
+
+.sec1 {
+  background-color: #CFF;
+  border: 2px solid grey;
+  margin: 4%;
+}
+
+.dyn {
+  background-color: #CEE;
+  border: 2px solid grey;
+  margin: 4%;
+}
+
+.contact {
+  background-color: #CCF;
+  border: 1px solid grey;
+  margin: 4% 4% 4% 4%;
+  height: 200%;
+  overflow: auto;
+}
+
+.contact h5 {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.contact ul {
+  list-style-type: none;
+}
+
+.contact ul li {
+  display: block;
+  float: left;
+  margin: 3px 3%;
+}
