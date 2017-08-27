@@ -3,21 +3,39 @@ console.log("app.js linked.");
 
 let db = [
   {
-    projName: "js-control-flow-training",
+    projName: "Javascript Control Flow Training",
     projDesc: "In this module we had 3 exercises on the Control Flow feature of Javascript. They are in login.js, sequrity_questions.js, and sing.js.",
     projLink: "https://github.com/achentha/js-control-flow-training/tree/master/starter-code"
   },
 
   {
-    projName: "achentha.github.io",
+    projName: "My Persoal Portfolio",
     projDesc: "This is my first personal Web Page. It is an on-going project at the time of this writing.",
     projLink: "https://github.com/achentha/achentha.github.io"
   },
 
   {
-    projName: "wdi-fundamentals-memorygame",
+    projName: "Memory Game",
     projDesc: "This is a very simple game to test your memory. There are 4 cards in the game. The goal is to find a matching pair of two cards.",
     projLink: "https://github.com/achentha/wdi-fundamentals-memorygame"
+  },
+
+  {
+    projName: "Racing Game",
+    projDesc: "A simple game with two players racing towards to goal line to win the game.",
+    projLink: "https://github.com/achentha/racing-game"
+  },
+
+  {
+    projName: "Geoquakes",
+    projDesc: "Retrieve the information from USGS on significant earthquakes around the world in the past week and show the brief information of the time & place along with the location on Google Map by using Google Map API.",
+    projLink: "https://github.com/achentha/geoquakes"
+  },
+
+  {
+    projName: "Spotify Search",
+    projDesc: "Search based on the song title or the name of the artist. The display output includes the track name, artist name, an album photo(if one available), and a preview button that the user can click to listen to the preview.",
+    projLink: "https://github.com/achentha/spotify-search-lab"
   }
 ]
 
@@ -39,7 +57,10 @@ $(document).ready(function() {
    * as an <li> element of the <ul> above.
    */
   for (let i = 0; i < db.length; i++) {
-    myProj += `<li><a href="${db[i].projLink}" target="_blank">${db[i].projName}</a></li>`;
+    myProj += `<li>
+                 <a href="${db[i].projLink}" target="_blank">${db[i].projName}</a>
+                 <p>${db[i].projDesc}</p>
+               </li>`;
   }
 
   myProj += "</ul>";   /* add the </ul> tag */
